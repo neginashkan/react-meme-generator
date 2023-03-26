@@ -51,6 +51,8 @@ function Meme() {
           onChange={handleChange}
           value={meme.topText}
           name="topText"
+          autoComplete="off"
+          autoFocus
         />
         <input
           className="meme-input"
@@ -58,6 +60,8 @@ function Meme() {
           onChange={handleChange}
           value={meme.bottomText}
           name="bottomText"
+          autoComplete="off"
+          autoFocus
         />
         <input
           className="meme-button"
