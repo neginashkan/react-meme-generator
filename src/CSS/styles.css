@@ -133,6 +133,9 @@ form {
 .top {
     top: 0;
 }
+.Meme-Generator{
+  margin-bottom: 1em;
+}
 @media (max-width:300px) {
   .meme-input{
     font-size: 0.65rem;
